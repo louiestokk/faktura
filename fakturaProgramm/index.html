@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/ee0a0de948.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <title>Gratis faktura program</title>
+    <style>
+      body {
+        height: 100vh;
+      }
+      .hero-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body id="gratis faktura program">
+    <div class="nav-btn-container">
+      <i class="fas fa-bars"></i>
+    </div>
+    <!-- end of navbar -->
+    <!-- navbar -->
+    <nav class="main-navbar">
+      <ul class="gratis faktura">
+        <li>
+          <a href="./index.html">Hem</a>
+        </li>
+        <li>
+          <a href="./fakturamall.html">Skapa Faktura</a>
+        </li>
+        <li>
+          <a href="./kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--  end navbar -->
+
+    <!-- hero banner section -->
+    <header class="hero-header">
+      <div class="hero-banner">
+        <h1>Skapa Fakturor Kostnadsfritt</h1>
+        <p>Snygga fakturor med följande valutor</p>
+        <div class="icon-container">
+          <span>SEK</span>
+          <i class="fas fa-dollar-sign"></i>
+          <i class="fas fa-euro-sign"></i>
+          <i class="fab fa-bitcoin"></i>
+          <i class="fab fa-ethereum"></i>
+        </div>
+        <div class="divider"></div>
+        <span
+          >Inget konto eller registrering krävs! Skapa och ladda ner som
+          pdf</span
+        >
+        <a href="./fakturamall.html" class="click-btn">Skapa Faktura</a>
+      </div>
+    </header>
+
+    <!-- end of hero banner section -->
+    <script>
+      document
+        .querySelector(".nav-btn-container")
+        .addEventListener("click", function () {
+          document.querySelector(".main-navbar").classList.toggle("hidden");
+          document.querySelector(".fa-bars").classList.toggle("change");
+        });
+    </script>
+  </body>
+</html>
